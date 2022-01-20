@@ -7,7 +7,6 @@ import java.util.Properties;
 
 import javax.mail.Message;
 import javax.mail.MessagingException;
-import javax.mail.PasswordAuthentication;
 import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
@@ -68,19 +67,5 @@ public class MailSender {
         transport.sendMessage(message, message.getAllRecipients());
         transport.close();
     }
-
-//    class MyAuthenticator extends javax.mail.Authenticator {
-//        private String strUser;
-//        private String strPwd;
-//
-//        public MyAuthenticator(String user, String password) {
-//            this.strUser = user;
-//            this.strPwd = password;
-//        }
-//
-//        @Override
-//        protected PasswordAuthentication getPasswordAuthentication() {
-//            return new PasswordAuthentication(strUser, strPwd);
-//        }
-//    }
+    
 }
