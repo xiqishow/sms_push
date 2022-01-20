@@ -1,8 +1,6 @@
 # SMS Push
-![](https://github.com/xiqishow/sms_push/blob/main/Screenshot/Screenshot_2022-01-20-10-55-26-805_io.xqs.bt.smspush.jpg)
 SMS Push是一款短信转发的应用，可以将android系统接收的短信以SMTP方式发送到指定的邮箱。
-https://raw.githubusercontent.com/xiqishow/sms_push/main/Screenshot/Screenshot_2022-01-20-10-55-26-805_io.xqs.bt.smspush.jpg
-
+![](https://github.com/xiqishow/sms_push/blob/main/Screenshot/Screenshot_2022-01-20-10-55-26-805_io.xqs.bt.smspush.jpg){ width: 200px; }
 ### 背景
 我有两部手机，一部iPhone 12作为主力机，另一部是android的小米9Se，其中小米9se的两个号码用于接收各种物流、营销或其他不重要的电话或短信。虽然电话可以通过“呼叫转移”转至iPhone，但短信缺一直没有特别好的方式转移，每次接收验证码还需要从包里翻出来查看。
 
