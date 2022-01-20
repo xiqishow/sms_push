@@ -1,13 +1,9 @@
 package io.xqs.bt.smspush;
 
 import android.Manifest;
-import android.app.AlarmManager;
-import android.app.PendingIntent;
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.text.TextUtils;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -18,8 +14,6 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import com.kaopiz.kprogresshud.KProgressHUD;
-
-import java.util.Calendar;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
